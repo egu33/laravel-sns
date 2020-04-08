@@ -25,7 +25,8 @@
             <input type="file" name="photo" accept="image/jpeg,image/gif,image/png" />
           </div>
           <input type="submit" name="commit" value="投稿する" class="btn btn-primary" data-disable-with="投稿する" />
-</form>      </div>
+          </form>     
+</div>
     </div>
   </div>
 </div>
