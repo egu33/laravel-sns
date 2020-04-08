@@ -1,0 +1,40 @@
+.profile-form-wrap {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+}
+.profile-form-wrap label {
+  font-weight: bold;
+}
+.edit-profile-wrapper {
+  margin-top: 60px;
+}
+.wrap {
+  background-color: #444;
+  height: 200px;
+  padding: 30px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+}
+.ct {
+  height: 100%;
+  width: 50%;
+}
+.ct p {
+  margin: 0;
+  text-align: center;
+  line-height: 15em;
+  font-size: 14px;
+}
+.one {
+  background-color: #f2f2f2;
+}
+.two {
+  background-color: #f4f5f7;
+}
+.thr {
+  background-color: #fff;
+}
