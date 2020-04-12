@@ -51,7 +51,8 @@ class PostsController extends Controller
             return redirect('/');
         }
         
-        $request->photo->storeAs('public/post_images', $post->id . '.jpg');
+        $request->photo->storeAs('public/post_images', $post->id . '.jpg', ['disk' => 's3', 'visibility' => 'public']);
+        // $request->photo->storeAs('public/post_images', $post->id . '.jpg');
         // $request->photo->storeAs('public/post_images', $post->id . '.jpg',  ['disk' => 's3']);
     
         

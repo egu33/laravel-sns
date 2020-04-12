@@ -28,7 +28,7 @@
          <span style=" margin-left: 10px; margin-top: 10px; margin-right: 10px; margin-bottom: 5px;">{{ $post->caption }}</span>
          
         <a href="/users/{{ $post->user->id }}">
-          <img src="/storage/post_images/{{ $post->id }}.jpg" class="card-img-top" alt="" />
+            <img src="{{ Storage::disk('s3')->url("public/post_images/{$post->id}.jpg") }}" class="card-img-top" alt="" />
         </a>
         
         <div class="card-body" style="padding-top: 0px;">

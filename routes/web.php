@@ -42,5 +42,5 @@ Route::post('/posts/{comment_id}/comments','CommentsController@store');
 //コメント取消処理
 Route::get('/comments/{comment_id}', 'CommentsController@destroy');
 
-Route::get('upload', 'UploadController@create');
-Route::post('upload', 'UploadController@store');
+Route::get('/login/github', 'Auth\LoginController@redirectToProvider');
+Route::get('/login/github/callback', 'Auth\LoginController@handleProviderCallback');
