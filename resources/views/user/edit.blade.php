@@ -15,7 +15,7 @@
             <label for="user_profile_photo">プロフィール写真</label><br>
                 @if ($user->profile_photo)
                     <p>
-                        <img src="{{ asset('storage/user_images/' . $user->profile_photo) }}" alt="avatar" />
+                        <img src="{{ Storage::disk('s3')->url('public/user_images/' . $user->profile_photo) }}" alt="avatar" />
                     </p>
                 @endif
             <input type="file" name="user_profile_photo"  value="{{ old('user_profile_photo',$user->id) }}" accept="image/jpeg,image/gif,image/png" />
@@ -26,10 +26,7 @@
             <input autofocus="autofocus" class="form-control" type="text" value="{{ old('user_name',$user->name) }}" name="user_name" />
           </div>
 
-          <div class="form-group">
-            <label for="user_email">メールアドレス</label>
-            <input autofocus="autofocus" class="form-control" type="email" value="{{ old('user_email',$user->email) }}" name="user_email" />
-          </div>
+        
 
           <div class="form-group">
             <label for="user_password">パスワード</label>

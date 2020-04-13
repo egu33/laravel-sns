@@ -18,7 +18,7 @@
               <img class="post-profile-icon round-img" src="{{ asset('storage/user_images/' . Auth::user()->id . '.jpg') }}"/>
             </div>
             <div class="col pl-0">
-              <input class="form-control border-0" placeholder="キャプションを書く" type="text" name="caption" value="{{ old('list_name') }}"/>
+              <input class="form-control border-0" placeholder="投稿内容" type="text" name="caption" value="{{ old('list_name') }}"/>
             </div>
           </div>
           <div class="mb-3">

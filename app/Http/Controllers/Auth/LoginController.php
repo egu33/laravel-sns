@@ -59,7 +59,7 @@ class LoginController extends Controller
           $user = User::create([
               'name' => $socialUser->getNickname(),
               'email' => $socialUser->getEmail(),
-              'password' => Hash::make($socialUser->getNickname()),  // 例としての記述なので、マネしないように
+              'password' => Hash::make($socialUser->getNickname()), 
           ]);
           Auth::login($user);
           return redirect('/home');

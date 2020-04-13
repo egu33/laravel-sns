@@ -25,7 +25,7 @@ class PostsController extends Controller
     }
   public function new()
     {
-         // テンプレート「post/new.blade.php」を表示します。
+         //post/new.blade.phpを表示
         return view('post/new');
     }
     
