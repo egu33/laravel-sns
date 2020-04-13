@@ -8,7 +8,7 @@
     <div class="col-md-4 text-center">
       @if ($user->profile_photo)
         <p>
-          <img class="round-img" src="{{ asset('storage/user_images/' . $user->profile_photo) }}" alt="avatar" />
+          <img class="round-img" src="{{ Storage::disk('s3')->url('public/user_images/' . $user->profile_photo) }}" alt="avatar" />
         </p>
       @endif
     </div>
