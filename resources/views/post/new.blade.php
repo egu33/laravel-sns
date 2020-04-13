@@ -14,9 +14,6 @@
         <form class="upload-images p-0 border-0" id="new_post" enctype="multipart/form-data" action="{{ url('posts')}}" accept-charset="UTF-8" method="POST">
         {{csrf_field()}} 
           <div class="form-group row mt-2">
-            <div class="col-auto pr-0">
-              <img class="post-profile-icon round-img" src="{{ asset('storage/user_images/' . Auth::user()->id . '.jpg') }}"/>
-            </div>
             <div class="col pl-0">
               <input class="form-control border-0" placeholder="投稿内容" type="text" name="caption" value="{{ old('list_name') }}"/>
             </div>
