@@ -22,12 +22,10 @@
           <input type="submit" name="commit" value="サインインする" class="btn btn-primary w-100">
         </div>
       </form>
-      
-       <div class="form-group row">
-     <label for="github" class="col-md-6 col-form-label text-md-right">
-         <a href="{{ url('login/github') }}">Login with GitHub</a>
-     </label>
-   </div>
+    
+   <a class="btn btn-block btn-social btn-github" href="{{ url('login/github') }}">
+    <span class="fa fa-github"></span> Sign in with github
+  </a>
 
       <br>
 
