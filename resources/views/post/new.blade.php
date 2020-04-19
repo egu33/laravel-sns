@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@include('navbar')
 @section('content')
 <div class="panel-body">
 <!-- バリデーションエラー表示 --> 
@@ -15,7 +16,7 @@
         {{csrf_field()}} 
           <div class="form-group row mt-2">
             <div class="col pl-0">
-              <input class="form-control border-0" placeholder="投稿内容" type="text" name="caption" value="{{ old('list_name') }}"/>
+              <textarea rows="4" class="form-control border-0" placeholder="オリンピックサッカーへの応援メッセージを投稿しよう" type="text" name="caption" value="{{ old('list_name') }}"/></textarea>
             </div>
           </div>
           <div class="mb-3 ">
