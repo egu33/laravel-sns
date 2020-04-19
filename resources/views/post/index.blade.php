@@ -4,7 +4,7 @@
 
 @section('content')
 @foreach ($posts as $post) 
-  <div class="col-md-8 col-md-2 mx-auto">
+  <div class="col-xs-6 col-lg-8 mx-auto">
     <div class="card-wrap">
       <div class="card">
         <div class="card-header align-items-center d-flex">

@@ -4,8 +4,8 @@
 <!-- バリデーションエラー表示 --> 
 @include('common.errors')
 
-<div class="d-flex flex-column align-items-center mt-3">
-  <div class="col-xl-7 col-lg-8 col-md-10 col-sm-11 post-card">
+<div class=" d-flex flex-column align-items-center mt-3">
+  <div class="col-xs-6 col-lg-8 post-card">
     <div class="card">
       <div class="card-header">
         投稿画面
@@ -18,10 +18,12 @@
               <input class="form-control border-0" placeholder="投稿内容" type="text" name="caption" value="{{ old('list_name') }}"/>
             </div>
           </div>
-          <div class="mb-3">
+          <div class="mb-3 ">
             <input type="file" name="photo" accept="image/jpeg,image/gif,image/png" />
           </div>
-          <input type="submit" name="commit" value="投稿する" class="btn btn-primary" data-disable-with="投稿する" />
+          <div class="form-group row justify-content-center">
+          <input type="submit" name="commit" value="投稿する" class="btn btn-primary " data-disable-with="投稿する"/>
+          </div>
           </form>     
        </div>
     </div>

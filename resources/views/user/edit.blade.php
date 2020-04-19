@@ -5,7 +5,7 @@
 @section('content')
 <div class="col-md-offset-2 mb-4 edit-profile-wrapper">
   <div class="row">
-    <div class="col-md-8 mx-auto">
+    <div class="col-xs-8 col-lg-8 mx-auto">
       <div class="profile-form-wrap">
         <form class="edit_user" enctype="multipart/form-data" action="/users/update" accept-charset="UTF-8" method="post">
           <input name="utf8" type="hidden" value="✓" />

@@ -28,3 +28,6 @@
 .setting:hover {
   cursor: pointer;
 }
+.outline {
+  text-shadow: 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #f00, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0;
+}
