@@ -29,5 +29,5 @@
   cursor: pointer;
 }
 .outline {
-  text-shadow: 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #f00, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0, 0 0 3px #c0c0c0;
+  text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
 }
