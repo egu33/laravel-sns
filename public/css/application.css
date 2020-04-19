@@ -218,11 +218,21 @@ footer {
   margin: 5px 0 0 10px;
   background-size: 11px !important;
 }
-body {
-  background-image: url("/images/top_background.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  background-attachment: fixed;
+@media only screen and (max-width: 980px) {
+  body {
+    background-image: url("/images/mobile.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 981px) {
+  body {
+    background-image: url("/images/top_background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+  }
 }
