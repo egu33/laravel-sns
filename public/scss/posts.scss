@@ -82,10 +82,10 @@
   background-size: 11px !important;
 }
 body{
-    background-image: url(/images/top_background.png);
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-size: contain;
-    background-size: cover;
-    background-position: center center;
+    background-image: url("/images/top_background.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
 }
