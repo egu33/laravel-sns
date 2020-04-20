@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @include('navbar')
-@include('footer')
+
 
 @section('content')
 @foreach ($posts as $post) 
