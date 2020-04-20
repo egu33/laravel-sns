@@ -1,7 +1,7 @@
 @section('footer')
 <footer>
   <div class="container">
-    <div class="text-center">
+    <div class="text-center white_text">
       <p>
         Copywrite©****
       </p>
