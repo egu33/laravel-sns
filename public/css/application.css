@@ -154,6 +154,10 @@ footer {
 .thr {
   background-color: #fff;
 }
+.img {
+  max-width: 100%;
+  height: auto;
+}
 .post-profile-icon {
   height: 40px;
   width: 40px;

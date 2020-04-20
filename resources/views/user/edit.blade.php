@@ -14,7 +14,7 @@
           <div class="form-group">
             <label for="user_profile_photo">プロフィール写真</label><br>
                 @if ($user->profile_photo)
-                    <p>
+                    <p class="img">
                         <img src="{{ Storage::disk('s3')->url('public/user_images/' . $user->profile_photo) }}" alt="avatar" />
                     </p>
                 @endif
