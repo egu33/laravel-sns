@@ -25,7 +25,7 @@
           	</a>
           @endif
         </div>
-         <span style=" margin-left: 10px; margin-top: 10px; margin-right: 10px; margin-bottom: 5px;"><h5>{{ $post->caption }}</h5></span>
+         <span style=" margin-left: 10px; margin-top: 10px; margin-right: 10px; margin-bottom: 5px;"><h5>{!! nl2br ($post->caption) !!}</h5></span>
          
         <a>
             <img src="{{ Storage::disk('s3')->url("public/post_images/{$post->id}.jpg") }}" class="card-img-top" alt="" />
