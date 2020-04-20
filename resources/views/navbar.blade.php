@@ -3,6 +3,8 @@
       <div class="container">
         <a class="navbar-brand white_text" href="{{ url('/') }}">
           <h>オリンピックサッカー応援サイト</h>
+          <br>
+          <font size="2">画像やメッセージを投稿して日本代表を応援しよう</font>
         </a>
         <a class="navbar__brand navbar__mainLogo" href="/"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,3 +1,13 @@
+.container {
+    width: 1000px;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
 .profile-wrap{
   margin:40px 0px;
 }

@@ -2,7 +2,7 @@
 @include('footer')
 
 @section('content')
-<div class="main">
+<div class="row main" >
   <div class="card devise-card">
     <div class="form-wrap">
       <div class="form-group text-center">
