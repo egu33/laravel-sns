@@ -18,7 +18,6 @@ class CommentsController extends Controller
     }
     public function store(Request $request)
     {
-        // Commentモデル作成
         $comment = new Comment;
         $comment->comment = $request->comment;
         $comment->post_id = $request->post_id;
