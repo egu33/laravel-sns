@@ -40,3 +40,13 @@
 .outline {
   text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
 }
+footer {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  position: absolute;
+  /*←絶対位置*/
+  bottom: 0;
+  /*下に固定*/
+}
