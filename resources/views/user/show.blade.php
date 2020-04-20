@@ -15,10 +15,10 @@
       @endif
     </div>
     <div class="col-md-8">
-      <div class="row">
+      <div class="row  mx-auto">
         <h1><font color="white">{{ $user->name }}</font></h1>
         </div>
-         <div class="row">
+         <div class="row mx-auto">
         <p>
           <font color="white">{{ $user->email }}</font>
         </p>
