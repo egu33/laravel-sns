@@ -18,7 +18,7 @@
             <li>
               <a class="btn btn-primary" href="/users/{{ Auth::user()->id }}" style="margin-bottom: 5px; margin-top: 5px;">プロフィール</a>
             </li>
-            <li> <a class="btn btn-primary" href="/posts/new" style="margin-bottom: 5px;">投稿</a>
+            <li> <a class="btn btn-primary" href="/posts/new" style="margin-bottom: 5px; margin-top: 5px;">投稿</a>
             </li>
             
           </ul>
