@@ -14,8 +14,8 @@
           <div class="form-group">
             <label for="user_profile_photo">プロフィール写真</label><br>
                 @if ($user->profile_photo)
-                    <p class="img">
-                        <img src="{{ Storage::disk('s3')->url('public/user_images/' . $user->profile_photo) }}" alt="avatar" />
+                    <p>
+                        <img style="max-width: 100%; height: auto;" src="{{ Storage::disk('s3')->url('public/user_images/' . $user->profile_photo) }}" alt="avatar" />
                     </p>
                 @endif
             <input type="file" name="user_profile_photo"  value="{{ old('user_profile_photo',$user->id) }}" accept="image/jpeg,image/gif,image/png" />

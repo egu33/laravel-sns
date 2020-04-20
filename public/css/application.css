@@ -114,6 +114,10 @@ footer {
 .outline {
   text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 .profile-form-wrap {
   background: #fff;
   padding: 20px;
