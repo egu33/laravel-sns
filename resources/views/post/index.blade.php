@@ -49,7 +49,7 @@
             <div id="comment-post-{{ $post->id }}">
               @include('post.comment_list')
             </div>
-            <a class="light-color post-time no-text-decoration" href="/posts/{{ $post->id }}">{{ $post->created_at }}</a>
+            <a class="light-color post-time no-text-decoration">{{ $post->created_at }}</a>
             <hr>
             <div class="row actions" id="comment-form-post-{{ $post->id }}">
            	  <form class="w-100" id="new_comment" action="/posts/{{ $post->id }}/comments" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="✓" />
