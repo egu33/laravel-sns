@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @include('navbar')
-@include('footer')
 @include('common.errors')
 @section('content')
 <div class="col-md-offset-2 mb-4 edit-profile-wrapper">
